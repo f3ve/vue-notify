@@ -1,6 +1,6 @@
-# Monorepo Template
+# Vue Notify Monorepo
 
-This is a starter template for bootstrapping a new monorepo project.
+This contains all of the packages for Vue Notify.
 
 ## Features
 
