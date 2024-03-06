@@ -1,0 +1,36 @@
+{
+  "name": "@f3ve/monorepo-template",
+  "author": "Freedom Evenden <f3ve>",
+  "description": "A starter template for monorepos",
+  "type": "module",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky",
+    "version": "lerna version"
+  },
+  "lint-staged": {
+    "**/**": "prettier --write --ignore-unknown",
+    "*.{cjs,js,ts}": "eslint --fix"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.1",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@commitlint/types": "^19.0.0",
+    "@f3ve/eslint-config": "^1.0.6",
+    "@lerna-lite/cli": "^3.3.1",
+    "@lerna-lite/publish": "^3.3.1",
+    "@lerna-lite/version": "^3.3.1",
+    "@types/node": "^20.11.20",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/@lerna-lite/cli/schemas/lerna-schema.json",
+  "version": "0.0.0",
+  "changelogPreset": "angular",
+  "loglevel": "verbose",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "changelog": true,
+      "conventionalCommits": true,
+      "message": "build: version %v",
+      "gitTagVersion": true
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "pnpm"
+}
