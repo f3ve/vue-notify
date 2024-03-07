@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 
-export type ColorOptions = 'default' | 'success' | 'warn' | 'error' | 'info';
+export type ColorOptions = 'default' | 'success' | 'warning' | 'error' | 'info';
 export type Notification = { message: string; color: string; id: number };
 
 export const useNotify = defineStore('vue-notify', () => {
