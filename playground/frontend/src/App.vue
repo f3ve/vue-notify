@@ -12,7 +12,7 @@ const notify = useNotify();
   <button @click="notify.show('This is a success message!', 'success')">
     Success
   </button>
-  <button @click="notify.show('This is a warning message!', 'warn')">
+  <button @click="notify.show('This is a warning message!', 'warning')">
     Warn
   </button>
   <button @click="notify.show('This is an info message!', 'info')">Info</button>
@@ -20,5 +20,5 @@ const notify = useNotify();
     Default
   </button>
 
-  <VNotifications />
+  <VNotifications :delay="5000" />
 </template>
