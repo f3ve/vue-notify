@@ -18,5 +18,5 @@ export default defineConfig({
       '@': resolve('src/'),
     },
   },
-  plugins: [DTS({ rollupTypes: true, insertTypesEntry: true })],
+  plugins: [DTS({ rollupTypes: true })],
 });

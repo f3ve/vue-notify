@@ -21,5 +21,5 @@ export default defineConfig({
     },
   },
 
-  plugins: [VueJsx(), DTS({ rollupTypes: true, insertTypesEntry: true })],
+  plugins: [VueJsx(), DTS({ rollupTypes: true })],
 });
