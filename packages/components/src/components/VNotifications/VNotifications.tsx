@@ -8,7 +8,7 @@ export const VNotifications = defineComponent(
     const notify = useNotify();
 
     const Notification = props.notifyComponent || VNotification;
-    const delay = props.delay !== undefined ? props.delay : 3000;
+    const delay = props.delay !== undefined ? props.delay : 3500;
 
     return () => (
       <div class="notifications">

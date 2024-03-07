@@ -1,14 +1,21 @@
 .notifications {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: end;
   gap: 1rem;
-  bottom: 1rem;
+  bottom: 0;
   width: 100%;
-  height: 100% !important;
+  height: 100vh !important;
   pointer-events: none;
+  z-index: 1000;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.notifications > * {
+  pointer-events: initial;
 }
 
 .notifications-move,
@@ -20,6 +27,7 @@
 .notifications-enter-from,
 .notifications-leave-to {
   opacity: 0;
+  transform: translateY(30px);
 }
 
 .notifications-leave-active {

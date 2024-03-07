@@ -32,10 +32,12 @@ export const VNotification = defineComponent(
     }
 
     return () => (
-      <div class={`vue-notification color-${props.color}`}>
+      <output role="status" class={`vue-notification color-${props.color}`}>
         <p>{props.message}</p>
-        <button onClick={close}>Close</button>
-      </div>
+        <button onClick={close}>
+          <span class="vue-notification-close"></span>
+        </button>
+      </output>
     );
   },
   {
