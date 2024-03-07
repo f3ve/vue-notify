@@ -12,7 +12,8 @@ export type VNotificationProps = {
 export const VNotification = defineComponent(
   (props: VNotificationProps) => {
     const notify = useNotify();
-    let timeout: NodeJS.Timeout | undefined;
+
+    let timeout: number | undefined;
 
     onMounted(() => {
       if (timeout) clearTimeout(timeout);

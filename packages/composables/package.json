@@ -5,11 +5,14 @@
   "description": "Vue Notify composables",
   "author": "Freedom Evenden <f3ve>",
   "type": "module",
-  "main": "./dist/composables.js",
+  "main": "./dist/vue-notify-composables.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "tsc && vite build"
   },
   "devDependencies": {
     "vite": "^5.1.4",

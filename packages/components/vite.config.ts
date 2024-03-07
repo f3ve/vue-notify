@@ -7,6 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
+      fileName: 'vue-notify-components',
       formats: ['es'],
     },
     rollupOptions: {
@@ -20,5 +21,5 @@ export default defineConfig({
     },
   },
 
-  plugins: [VueJsx(), DTS({ include: ['src/'] })],
+  plugins: [VueJsx(), DTS({ rollupTypes: true, insertTypesEntry: true })],
 });

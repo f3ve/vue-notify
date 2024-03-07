@@ -14,6 +14,7 @@ export const useNotify = defineStore('vue-notify', () => {
    */
   function show(message: string, color: ColorOptions = 'default') {
     const id = notifications.value.length ? notifications.value[0].id + 1 : 1;
+
     notifications.value.unshift({
       message,
       color,
