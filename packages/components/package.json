@@ -1,0 +1,31 @@
+{
+  "name": "@vue-notify/components",
+  "private": false,
+  "version": "0.0.0",
+  "description": "Vue Notify components",
+  "author": "Freedom Evenden <f3ve>",
+  "type": "module",
+  "main": "./dist/components.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vue-notify/notify": "workspace:^",
+    "@vue/tsconfig": "^0.5.1",
+    "pinia": "^2.1.7",
+    "vite": "^5.1.4",
+    "vite-plugin-dts": "^3.7.3",
+    "vue": "^3.4.21"
+  },
+  "peerDependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21"
+  },
+  "license": "MIT"
+}

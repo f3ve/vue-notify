@@ -1,22 +1,26 @@
 {
-  "name": "@f3ve/vue-notify-monorepo",
+  "name": "vue-notify",
   "author": "Freedom Evenden <f3ve>",
   "description": "Vue Notify Monorepo",
   "type": "module",
-  "main": "index.js",
   "private": true,
   "scripts": {
     "build": "pnpm -r build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky",
-    "version": "lerna version"
+    "version": "lerna version",
+    "use-notify": "pnpm --filter @f3ve/use-notify",
+    "frontend": "pnpm --filter frontend",
+    "request": "pnpm -F @f3ve/use-notify-request",
+    "notify": "pnpm -F @vue-notify/notify",
+    "composables": "pnpm -F @usenotify/composables",
+    "components": "pnpm -F @vue-notify/components"
   },
   "lint-staged": {
     "**/**": "prettier --write --ignore-unknown",
     "*.{cjs,js,ts}": "eslint --fix"
   },
-  "keywords": [],
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^19.0.3",
@@ -32,5 +36,8 @@
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "typescript": "^5.4.2"
+  },
+  "script": {
+    "request": "pnpm -F @f3ve/use-notify-request"
   }
 }

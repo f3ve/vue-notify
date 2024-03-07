@@ -1,0 +1,35 @@
+:root {
+  --vue-notification-color-success: lightgreen;
+  --vue-notification-color-default: lightgray;
+  --vue-notification-color-error: rgb(255, 107, 107);
+  --vue-notification-color-info: rgb(111, 255, 255);
+  --vue-notification-color-warn: orange;
+}
+
+.vue-notification {
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.1rem 0.2rem rgb(134, 134, 134);
+  pointer-events: all;
+  z-index: 1000;
+}
+
+.vue-notification.color-success {
+  background-color: var(--vue-notification-color-success);
+}
+
+.vue-notification.color-error {
+  background-color: var(--vue-notification-color-error);
+}
+
+.vue-notification.color-default {
+  background-color: var(--vue-notification-color-default);
+}
+
+.vue-notification.color-warn {
+  background-color: var(--vue-notification-color-warn);
+}
+
+.vue-notification.color-info {
+  background-color: var(--vue-notification-color-info);
+}

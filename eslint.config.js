@@ -5,4 +5,6 @@ export default f3veConfig({
   typescript: true,
   browser: true,
   node: true,
+  vue: true,
+  jsx: true,
 });
