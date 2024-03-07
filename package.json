@@ -20,7 +20,7 @@
   },
   "lint-staged": {
     "**/**": "prettier --write --ignore-unknown",
-    "*.{cjs,js,ts}": "eslint --fix"
+    "*.{js}": "eslint --fix"
   },
   "license": "MIT",
   "devDependencies": {
