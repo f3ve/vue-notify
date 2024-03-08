@@ -6,17 +6,19 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      fileName: 'vue-notify-composables',
+      fileName: 'vue-notify',
       formats: ['es'],
     },
     rollupOptions: {
-      external: ['vue'],
+      external: ['vue', 'pinia'],
     },
   },
+
   resolve: {
     alias: {
       '@': resolve('src/'),
     },
   },
+
   plugins: [DTS({ rollupTypes: true })],
 });
