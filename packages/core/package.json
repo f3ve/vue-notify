@@ -1,7 +1,7 @@
 {
   "name": "@f3ve/vue-notify",
   "private": false,
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Vue Notify core package. Contains the useNotify, components, and composables.",
   "author": "Freedom Evenden <f3ve>",
   "type": "module",
@@ -30,9 +30,9 @@
     "build": "tsc && vite build"
   },
   "devDependencies": {
-    "@f3ve/vue-notify-components": "^0.2.4",
-    "@f3ve/vue-notify-composables": "^0.2.4",
-    "@f3ve/vue-notify-store": "^0.2.4",
+    "@f3ve/vue-notify-components": "^0.2.5",
+    "@f3ve/vue-notify-composables": "^0.2.5",
+    "@f3ve/vue-notify-store": "^0.2.5",
     "pinia": "^2.1.7",
     "vite": "^5.1.4",
     "vite-plugin-dts": "^3.7.3",
