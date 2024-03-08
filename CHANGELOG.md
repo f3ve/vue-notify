@@ -7,19 +7,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
+- fixed lint-staged ([0117995](https://github.com/f3ve/vue-notify/commit/01179950d9fde610363657d470797afdb0eff07e))
 - fixed type exports ([0083f5b](https://github.com/f3ve/vue-notify/commit/0083f5b123677d4e6c36794b1fb51af56e723f4b))
 
 ### Features
 
 - added vue-notify/components ([f6ff317](https://github.com/f3ve/vue-notify/commit/f6ff31780542cfe376ce816786e4c50f53943136))
+- **components:** added dark variants and updated style of close button ([a547b78](https://github.com/f3ve/vue-notify/commit/a547b78d1628622e58b50039fa8f8eb18d65a64c))
 - created the core package ([5b69d5e](https://github.com/f3ve/vue-notify/commit/5b69d5e6936e5e089cd9e4cec5f17e9310d1f61c))
-
-# 0.1.0 (2024-03-07)
-
-### Bug Fixes
-
-- fixed type exports ([0083f5b](https://github.com/f3ve/vue-notify/commit/0083f5b123677d4e6c36794b1fb51af56e723f4b))
-
-### Features
-
-- added vue-notify/components ([f6ff317](https://github.com/f3ve/vue-notify/commit/f6ff31780542cfe376ce816786e4c50f53943136))
