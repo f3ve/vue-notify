@@ -7,6 +7,16 @@
   "type": "module",
   "main": "./dist/vue-notify.cjs",
   "module": "./dist/vue-notify.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-notify.js",
+      "require": "./dist/vue-notify.cjs"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
   "types": "./dist/index.d.ts",
   "keywords": [
     "vue",

@@ -7,6 +7,12 @@
   "type": "module",
   "main": "./dist/vue-notify-composables.cjs",
   "module": "./dist/vue-notify-composables.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-notify-components.js",
+      "require": "./dist/vue-notify-components.cjs"
+    }
+  },
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",

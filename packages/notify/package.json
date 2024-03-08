@@ -7,6 +7,12 @@
   "type": "module",
   "main": "./dist/vue-notify-notify.cjs",
   "module": "./dist/vue-notify-notify.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-notify-notify.js",
+      "require": "./dist/vue-notify-notify.cjs"
+    }
+  },
   "types": "./dist/index.d.ts",
   "files": [
     "./dist"
