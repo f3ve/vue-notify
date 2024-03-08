@@ -1,5 +1,5 @@
 {
-  "name": "@vue3-notify/components",
+  "name": "@f3ve/vue-notify-components",
   "private": false,
   "version": "0.2.2",
   "description": "Vue Notify components",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue-jsx": "^3.1.0",
-    "@vue3-notify/notify": "workspace:^",
+    "@f3ve/vue-notify-store": "^0.2.2",
     "pinia": "^2.1.7",
     "vite": "^5.1.4",
     "vite-plugin-dts": "^3.7.3",
@@ -41,5 +41,9 @@
     "pinia": "^2.1.7",
     "vue": "^3.4.21"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "608b627f0895d2d58d74f1032287b297b65dd618"
 }

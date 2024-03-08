@@ -1,4 +1,4 @@
-import '@vue3-notify/components/dist/style.css';
-export * from '@vue3-notify/notify';
-export * from '@vue3-notify/components';
-export * from '@vue3-notify/composables';
+import '@f3ve/vue-notify-components/dist/style.css';
+export * from '@f3ve/vue-notify-store';
+export * from '@f3ve/vue-notify-components';
+export * from '@f3ve/vue-notify-composables';

@@ -5,11 +5,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.2](https://github.com/f3ve/vue-notify/compare/v0.2.1...v0.2.2) (2024-03-08)
 
-**Note:** Version bump only for package @vue3-notify/notify
+**Note:** Version bump only for package @f3ve/vue-notify-store
 
 ## [0.2.1](https://github.com/f3ve/vue-notify/compare/v0.2.0...v0.2.1) (2024-03-08)
 
-**Note:** Version bump only for package @vue3-notify/notify
+**Note:** Version bump only for package @f3ve/vue-notify-store
 
 # 0.2.0 (2024-03-08)
 

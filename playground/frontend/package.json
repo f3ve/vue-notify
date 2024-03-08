@@ -12,7 +12,7 @@
     "modern-normalize": "^2.0.0",
     "pinia": "^2.1.7",
     "vue": "^3.4.19",
-    "vue3-notify": "workspace:^"
+    "@f3ve/vue-notify": "workspace:^"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

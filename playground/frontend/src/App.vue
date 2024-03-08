@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { useNotify, VNotifications, useNotifyRequest } from 'vue3-notify';
+import { useNotify, VNotifications, useNotifyRequest } from '@f3ve/vue-notify';
 
 const notify = useNotify();
 

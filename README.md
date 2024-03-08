@@ -53,7 +53,7 @@ import { createPinia } from 'pinia';
 import App from './App.vue';
 
 // Be sure to import component styles
-import 'vue3-notify/dist/style.css';
+import '@f3ve/vue-notify/dist/style.css';
 
 const app = createApp(App);
 
@@ -68,7 +68,7 @@ app.mount('#app');
 
 ```html
 <script setup>
-import { VNotifications } from 'vue3-notify';
+import { VNotifications } from '@f3ve/vue-notify';
 </script>
 <template>
   <router-view />
@@ -83,7 +83,7 @@ import { VNotifications } from 'vue3-notify';
 ```html
 <!-- some nested component -->
 <script setup>
-  import { useNotify } from 'vue3-notify';
+  import { useNotify } from '@f3ve/vue-notify';
 
   const notify = useNotify();
 </script>
@@ -106,7 +106,11 @@ Here are some examples of how to use this package
 ```html
 // App.vue
 <script setup>
-  import { useNotify, VNotifications, useNotifyRequest } from 'vue3-notify';
+  import {
+    useNotify,
+    VNotifications,
+    useNotifyRequest,
+  } from '@f3ve/vue-notify';
   import { myAsyncFunc } from './api';
 
   const notify = useNotify();
@@ -149,7 +153,7 @@ You can get the dark notification variants by applying the class `dark` either d
 
 ```html
 <script setup>
-  import { VNotifications } from 'vue3-notify';
+  import { VNotifications } from '@f3ve/vue-notify';
 </script>
 
 <template>
@@ -172,8 +176,8 @@ import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 import App from './App.vue';
 
-import 'vue3-notify/dist/style.css';
-// Be sure to import your styles after the vue3-notify styles.
+import '@f3ve/vue-notify/dist/style.css';
+// Be sure to import your styles after the @f3ve/vue-notify styles.
 import './styles/main.css';
 
 const app = createApp(App);
@@ -218,7 +222,11 @@ Review the [css file](/packages/components/src/components/VNotification/styles.c
 
 ```html
 <script lang="ts" setup>
-  import { useNotify, VNotifications, useNotifyRequest } from 'vue3-notify';
+  import {
+    useNotify,
+    VNotifications,
+    useNotifyRequest,
+  } from '@f3ve/vue-notify';
   import { myAsyncFunc } from './api';
   import { MyCustomComponent } from './components';
 

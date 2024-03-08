@@ -1,7 +1,7 @@
 import './styles.css';
 import { TransitionGroup, defineComponent } from 'vue';
 import { VNotification } from '../VNotification';
-import { useNotify } from '@vue3-notify/notify';
+import { useNotify } from '@f3ve/vue-notify-store';
 
 export const VNotifications = defineComponent(
   (props: { notifyComponent?: any; delay?: number }) => {

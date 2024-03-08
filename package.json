@@ -11,12 +11,7 @@
     "lint:fix": "eslint . --fix",
     "prepare": "husky",
     "version": "lerna version",
-    "use-notify": "pnpm --filter @f3ve/use-notify",
-    "frontend": "pnpm --filter frontend",
-    "request": "pnpm -F @f3ve/use-notify-request",
-    "notify": "pnpm -F @vue-notify/notify",
-    "composables": "pnpm -F @vue-notify/composables",
-    "components": "pnpm -F @vue-notify/components"
+    "publish": "lerna publish from-package"
   },
   "lint-staged": {
     "**/**": "prettier --write --ignore-unknown",

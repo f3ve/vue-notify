@@ -1,5 +1,5 @@
 {
-  "name": "@vue3-notify/notify",
+  "name": "@f3ve/vue-notify-store",
   "author": "Freedom Evenden <f3ve>",
   "description": "Vue Notify notification store",
   "private": false,
@@ -41,5 +41,9 @@
     "pinia": "^2.1.7",
     "vue": "^3.4.21"
   },
-  "license": "MIT"
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "gitHead": "608b627f0895d2d58d74f1032287b297b65dd618"
 }

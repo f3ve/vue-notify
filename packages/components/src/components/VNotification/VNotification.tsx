@@ -1,4 +1,4 @@
-import { useNotify } from '@vue3-notify/notify';
+import { useNotify } from '@f3ve/vue-notify-store';
 import './styles.css';
 import { defineComponent, onBeforeUnmount, onMounted } from 'vue';
 
