@@ -29,9 +29,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - added vue-notify/components ([f6ff317](https://github.com/f3ve/vue-notify/commit/f6ff31780542cfe376ce816786e4c50f53943136))
 
-## [0.1.1](https://github.com/f3ve/vue-notify/compare/@vue-notify/notify@0.1.0...@vue-notify/notify@0.1.1) (2024-03-07)
+## [0.1.1](https://github.com/f3ve/vue-notify/compare/@f3ve/notify@0.1.0...@f3ve/notify@0.1.1) (2024-03-07)
 
-**Note:** Version bump only for package @vue-notify/notify
+**Note:** Version bump only for package @f3ve/notify
 
 # 0.1.0 (2024-03-07)
 

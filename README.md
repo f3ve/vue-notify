@@ -29,13 +29,13 @@ npm install --save vue-notify
 #### Install just the notification API
 
 ```bash
-npm install --save @vue-notify/notify
+npm install --save @f3ve/notify
 ```
 
 #### Install just the composable
 
 ```bash
-npm install --save @vue-notify/composables
+npm install --save @f3ve/composables
 ```
 
 #### Install just the components
@@ -249,7 +249,7 @@ Review the [css file](/packages/components/src/components/VNotification/styles.c
 
 ### Custom notification wrapper and toast
 
-If you prefer to create your own components for use with `useNotify()` store please review the [@vue-notify/components](/packages/components/src/components/) package for examples.
+If you prefer to create your own components for use with `useNotify()` store please review the [@f3ve/components](/packages/components/src/components/) package for examples.
 
 ## Reference
 

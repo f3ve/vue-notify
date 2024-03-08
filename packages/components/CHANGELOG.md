@@ -30,7 +30,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - added vue-notify/components ([f6ff317](https://github.com/f3ve/vue-notify/commit/f6ff31780542cfe376ce816786e4c50f53943136))
 - **components:** added dark variants and updated style of close button ([a547b78](https://github.com/f3ve/vue-notify/commit/a547b78d1628622e58b50039fa8f8eb18d65a64c))
 
-# [0.2.0](https://github.com/f3ve/vue-notify/compare/@vue-notify/components@0.1.0...@vue-notify/components@0.2.0) (2024-03-07)
+# [0.2.0](https://github.com/f3ve/vue-notify/compare/@f3ve/components@0.1.0...@f3ve/components@0.2.0) (2024-03-07)
 
 ### Features
 
