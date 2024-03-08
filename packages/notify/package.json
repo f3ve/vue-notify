@@ -3,7 +3,7 @@
   "author": "Freedom Evenden <f3ve>",
   "description": "Vue Notify notification store",
   "private": false,
-  "version": "0.2.2",
+  "version": "0.2.3",
   "type": "module",
   "main": "./dist/vue-notify-notify.js",
   "types": "./dist/index.d.ts",
