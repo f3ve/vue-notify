@@ -1,7 +1,7 @@
 {
   "name": "@vue3-notify/components",
   "private": false,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Vue Notify components",
   "author": "Freedom Evenden <f3ve>",
   "type": "module",
