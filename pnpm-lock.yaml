@@ -55,7 +55,7 @@ importers:
       '@vitejs/plugin-vue-jsx':
         specifier: ^3.1.0
         version: 3.1.0(vite@5.1.5)(vue@3.4.21)
-      '@vue-notify/notify':
+      '@vue3-notify/notify':
         specifier: workspace:^
         version: link:../notify
       pinia:
@@ -85,13 +85,13 @@ importers:
 
   packages/core:
     devDependencies:
-      '@vue-notify/components':
+      '@vue3-notify/components':
         specifier: workspace:^
         version: link:../components
-      '@vue-notify/composables':
+      '@vue3-notify/composables':
         specifier: workspace:^
         version: link:../composables
-      '@vue-notify/notify':
+      '@vue3-notify/notify':
         specifier: workspace:^
         version: link:../notify
       pinia:
@@ -127,12 +127,6 @@ importers:
 
   playground/frontend:
     dependencies:
-      '@vue-notify/components':
-        specifier: workspace:*
-        version: link:../../packages/components
-      '@vue-notify/notify':
-        specifier: workspace:*
-        version: link:../../packages/notify
       modern-normalize:
         specifier: ^2.0.0
         version: 2.0.0
@@ -142,6 +136,9 @@ importers:
       vue:
         specifier: ^3.4.19
         version: 3.4.21(typescript@5.4.2)
+      vue3-notify:
+        specifier: workspace:^
+        version: link:../../packages/core
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.0.4

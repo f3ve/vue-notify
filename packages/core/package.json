@@ -1,5 +1,5 @@
 {
-  "name": "vue-notify",
+  "name": "vue3-notify",
   "private": false,
   "version": "0.2.0",
   "description": "Vue Notify core package. Contains the useNotify, components, and composables.",
@@ -15,9 +15,9 @@
     "build": "tsc && vite build"
   },
   "devDependencies": {
-    "@vue-notify/components": "workspace:^",
-    "@vue-notify/composables": "workspace:^",
-    "@vue-notify/notify": "workspace:^",
+    "@vue3-notify/components": "workspace:^",
+    "@vue3-notify/composables": "workspace:^",
+    "@vue3-notify/notify": "workspace:^",
     "pinia": "^2.1.7",
     "vite": "^5.1.4",
     "vite-plugin-dts": "^3.7.3",

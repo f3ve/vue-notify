@@ -9,8 +9,8 @@ export function useNotifyRequest<
 >(
   requestHandler: (...args: TArgs) => Promise<T>,
   options?: {
-    onSuccess: (result: Awaited<T>) => void;
-    onError: (error: any) => void;
+    onSuccess?: (result: Awaited<T>) => void;
+    onError?: (error: any) => void;
   },
 ) {
   const loading = ref(false);

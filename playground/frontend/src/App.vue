@@ -1,24 +1,26 @@
 <script lang="ts" setup>
-import { useNotify } from '@vue-notify/notify';
-import { VNotifications } from '@vue-notify/components';
+import { useNotify, VNotifications, useNotifyRequest } from 'vue3-notify';
 
 const notify = useNotify();
+
+function myAsyncFunc() {
+  return new Promise<string>((resolve) => {
+    setTimeout(() => {
+      resolve('Promise successfully resolved!');
+    }, 5000);
+  });
+}
+
+const { exec, loading } = useNotifyRequest(myAsyncFunc, {
+  onSuccess: (result) => notify.show('muffins', 'success'),
+  onError: (error) => notify.show(error.message, 'error'),
+});
 </script>
 
 <template>
-  <button @click="notify.show('This is an error message!', 'error')">
-    Error
-  </button>
-  <button @click="notify.show('This is a success message!', 'success')">
-    Success
-  </button>
-  <button @click="notify.show('This is a warning message!', 'warning')">
-    Warn
-  </button>
-  <button @click="notify.show('This is an info message!', 'info')">Info</button>
-  <button @click="notify.show('This is a default message!', 'default')">
-    Default
+  <button :disabled="loading" @click="exec">
+    {{ loading ? 'Loading...' : 'Submit' }}
   </button>
 
-  <VNotifications :delay="5000" />
+  <VNotifications />
 </template>

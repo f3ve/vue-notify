@@ -1,3 +1,4 @@
-export * from '@vue-notify/notify';
-export * from '@vue-notify/components';
-export * from '@vue-notify/composables';
+import '@vue3-notify/components/dist/style.css';
+export * from '@vue3-notify/notify';
+export * from '@vue3-notify/components';
+export * from '@vue3-notify/composables';

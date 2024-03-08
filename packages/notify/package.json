@@ -1,5 +1,5 @@
 {
-  "name": "@vue-notify/notify",
+  "name": "@vue3-notify/notify",
   "author": "Freedom Evenden <f3ve>",
   "description": "Vue Notify notification store",
   "private": false,

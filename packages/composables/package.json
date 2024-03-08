@@ -1,5 +1,5 @@
 {
-  "name": "@vue-notify/composables",
+  "name": "@vue3-notify/composables",
   "private": false,
   "version": "0.2.0",
   "description": "Vue Notify composables",

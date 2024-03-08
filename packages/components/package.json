@@ -1,5 +1,5 @@
 {
-  "name": "@vue-notify/components",
+  "name": "@vue3-notify/components",
   "private": false,
   "version": "0.2.0",
   "description": "Vue Notify components",
@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue-jsx": "^3.1.0",
-    "@vue-notify/notify": "workspace:^",
+    "@vue3-notify/notify": "workspace:^",
     "pinia": "^2.1.7",
     "vite": "^5.1.4",
     "vite-plugin-dts": "^3.7.3",
