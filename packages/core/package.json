@@ -1,7 +1,7 @@
 {
   "name": "vue3-notify",
   "private": false,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Vue Notify core package. Contains the useNotify, components, and composables.",
   "author": "Freedom Evenden <f3ve>",
   "type": "module",
