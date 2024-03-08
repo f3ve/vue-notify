@@ -8,8 +8,23 @@
   "main": "./dist/vue-notify-notify.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "./dist"
   ],
+  "keywords": [
+    "vue",
+    "vue3",
+    "notifications",
+    "toast",
+    "toasts",
+    "notify",
+    "composable",
+    "component",
+    "pinia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f3ve/vue-notify"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
