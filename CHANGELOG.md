@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/f3ve/vue-notify/compare/v0.2.5...v0.2.6) (2024-03-08)
+
+### Bug Fixes
+
+- fix type errors ([615d207](https://github.com/f3ve/vue-notify/commit/615d207581e09b14b2ef8a298899cb443a1e33b8))
+
 ## [0.2.5](https://github.com/f3ve/vue-notify/compare/v0.2.4...v0.2.5) (2024-03-08)
 
 **Note:** Version bump only for package vue-notify-monorepo
