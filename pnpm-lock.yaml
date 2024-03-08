@@ -53,7 +53,7 @@ importers:
   packages/components:
     devDependencies:
       '@f3ve/vue-notify-store':
-        specifier: ^0.2.2
+        specifier: ^0.2.5
         version: link:../notify
       '@vitejs/plugin-vue-jsx':
         specifier: ^3.1.0
@@ -86,13 +86,13 @@ importers:
   packages/core:
     devDependencies:
       '@f3ve/vue-notify-components':
-        specifier: ^0.2.2
+        specifier: ^0.2.5
         version: link:../components
       '@f3ve/vue-notify-composables':
-        specifier: ^0.2.2
+        specifier: ^0.2.5
         version: link:../composables
       '@f3ve/vue-notify-store':
-        specifier: ^0.2.2
+        specifier: ^0.2.5
         version: link:../notify
       pinia:
         specifier: ^2.1.7

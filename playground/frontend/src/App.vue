@@ -12,7 +12,7 @@ function myAsyncFunc() {
 }
 
 const { exec, loading } = useNotifyRequest(myAsyncFunc, {
-  onSuccess: (result) => notify.show('muffins', 'success'),
+  onSuccess: () => notify.show('muffins', 'success'),
   onError: (error) => notify.show(error.message, 'error'),
 });
 </script>

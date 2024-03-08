@@ -68,13 +68,13 @@ app.mount('#app');
 
 ```html
 <script setup>
-import { VNotifications } from '@f3ve/vue-notify';
+  import { VNotifications } from '@f3ve/vue-notify';
 </script>
 <template>
   <router-view />
 
   <!-- This makes notifications component visible on all your pages -->
-  <VNotifications
+  <VNotifications />
 </template>
 ```
 
