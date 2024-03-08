@@ -5,7 +5,8 @@
   "description": "Vue Notify composables",
   "author": "Freedom Evenden <f3ve>",
   "type": "module",
-  "main": "./dist/vue-notify-composables.js",
+  "main": "./dist/vue-notify-composables.cjs",
+  "module": "./dist/vue-notify-composables.js",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",

@@ -84,16 +84,17 @@ importers:
         version: 3.4.21(typescript@5.4.2)
 
   packages/core:
-    devDependencies:
+    dependencies:
       '@f3ve/vue-notify-components':
-        specifier: ^0.2.5
+        specifier: workspace:*
         version: link:../components
       '@f3ve/vue-notify-composables':
-        specifier: ^0.2.5
+        specifier: workspace:*
         version: link:../composables
       '@f3ve/vue-notify-store':
-        specifier: ^0.2.5
+        specifier: workspace:*
         version: link:../notify
+    devDependencies:
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(typescript@5.4.2)(vue@3.4.21)
