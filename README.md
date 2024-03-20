@@ -287,6 +287,9 @@ It supports the following params
 `delay` - An optional param the lets your adjust the delay in milliseconds before a notification disappears.
 `notifyComponent` - An optional param that lets you insert your own custom notification component if you do not wish to use the default.
 
+## Contributing
+Please see the [contributing guide](https://github.com/f3ve/.github/blob/main/CONTRIBUTING.md).
+
 ## Inspirations
 
 The notification API was inspired by Quasar's [notify plugin](https://quasar.dev/quasar-plugins/notify)
